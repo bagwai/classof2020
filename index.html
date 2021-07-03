@@ -1,44 +1,74 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>FCSIT Class of 2020 Graduation Dinner</title>
-<meta name="Description" content="A javascript countdown clock or timer with beautiful HTML and CSS styling that is simple to use in any project or on any website .">
-<meta name="Keywords" content="javascript, js, countdown, clock, timer, css, html, website, design, beautiful timer, countdown clock, countdown timer, javascript timer, javascript countdown clock, javascript countdown timer">
 
-<link rel="stylesheet" type="text/css" href="timer.css">
+     <title>FCSIT Class of 2020 Graduation Dinner Countdown </title>
+
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="team" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/vegas.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/templatemo-style.css">
+
 </head>
-	
 <body>
-	<div class="display">
-		<div id="clock" class="clock">
-                <h2 class="event" >Bayero University Kano</h2>
-             <h3 class="event" style="font-style: italic;" >FCSIT Graduation Dinner</h3>
-			<h1 class="event_title">Event Starts in</h1>
-			<div id="numbers">
-				<span class="days"></span>
-				<span class="hours"></span>
-				<span class="minutes"></span>
-				<span class="seconds"></span>
-			</div>
-			<div id="units">
-				<span>Days</span>
-				<span>Hours</span>
-				<span>Minutes</span>
-				<span>Seconds</span>
-			</div>
-		</div>
-        
-		<div id="door" class="hide">
-			<h1 class="event_title">Event Is Live</h1>
-        
-			<p class="action_caption">Click the button below to enter Live Stream</p>
 
-			<button class="call_to_action_button" type="button" onclick="liveStream()">Enter Live Stream!</button>
-		</div>
-		<div class="author"> &copy Dinner Committee</div>
-	</div>
-	<script src="timer.js"></script>
+     <!-- HOME -->
+     <section id="home">
+        <div class="overlay"></div>
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="home-info">
+                              <h1>Bayero University Kano  <br>Faculty of Computer Science and Information Technology</h1>
+                              <h1>Class of 2020 Graduation Dinner</h1>
+                              <!-- You can change the date time in init.js file -->
+                              <h1 style="font-size: 50px;"> Event Starts in</h1>
+                              <ul class="countdown">
+                                   <li>
+                                        <span class="days">14</span>
+                                        <h3>Days</h3>
+                                   </li>
+                                   <li>
+                                        <span class="hours">10</span>
+                                        <h3>hours</h3>
+                                   </li>
+                                   <li>
+                                        <span class="minutes">15</span>
+                                        <h3>minutes</h3>
+                                   </li>
+                                   <li>
+                                        <span class="seconds">34</span>
+                                        <h3>seconds</h3>
+                                   </li>     
+                              </ul>
+                              <div class="subscribe-form">
+                                    <p style="color: white;" >&copy Graduation Committee</p>
+                                </form>
+                              </div>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+     <!-- SCRIPTS -->
+     <script src="js/jquery.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/vegas.min.js"></script>
+     <script src="js/countdown.js"></script>
+     <script src="js/init.js"></script>
+     <script src="js/custom.js"></script>
+
 </body>
 </html>
-
